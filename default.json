@@ -1,0 +1,30 @@
+{
+	"streamType" : "MULTIPLE", //SINGLE || MULTIPLE
+	"mode" : "TEST", //TEST || LIVE
+	"accountID": "GCRUQO55VBD2PIQGH2ELIM4ISHV644424KDXDUKW65Q32NM3HH6AUGQV",
+	"testNetworkUrl": "https://horizon-testnet.stellar.org",
+	"publicNetworkUrl": "https://horizon.stellar.org",
+
+	"Database" : {
+		"type" : "sqlite3", // can be mysql,pg or sqlite3
+		"host" : "",
+		"dbName" : "",
+		"tableName" : "users",
+		"user" : "",
+		"password" : "",
+		"filename" : "./config/users.sqlite", //Only for sqlite3 
+
+	},
+
+	"Mail" : {
+		"devMode" : 1, // can be 1 or 0. 1 === true, 0 === false
+		"apiKey" : "MAILGUN-API-KEY",
+		"domain" : "DOMAIN NAME",
+		"fromAddress": "SENDER EMAIL",
+		"toAddress": "RECEPIENT EMAIL", // Not needed if getting emails from a database
+		"fromName": "SENDER NAME",
+		"signature": "SENDER SIGNATURE" //E.g Best regards, John Snow
+	}
+
+
+}
