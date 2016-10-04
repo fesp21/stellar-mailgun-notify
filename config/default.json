@@ -1,1 +1,14 @@
-#
+{
+	"accountID": "GCRUQO55VBD2PIQGH2ELIM4ISHV644424KDXDUKW65Q32NM3HH6AUGQV",
+	"testNetworkUrl": "https://horizon-testnet.stellar.org",
+	"publicNetworkUrl": "https://horizon.stellar.org",
+
+	"Mail" : {
+		"apiKey" : "MAILGUN-API-KEY",
+		"domain" : "EXAMPLE.COM",
+		"fromAddress": "SENDER-EMAIL",
+		"toAddress": "RECEIVER-EMAIL",
+		"fromName": "SENDER-NAME",
+		"signature": "SENDER-SIGNATURE"
+	}
+}
