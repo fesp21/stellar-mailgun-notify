@@ -40,6 +40,9 @@ To run the app, open a terminal navigate to the folder and type
 
 `node tx-notify.js`
 
+#Update
+Added feature: Send notifications for all operations not just payments
+
 #How it Works
 
 **SINGLE Mode**
@@ -63,10 +66,7 @@ Try running the app and send a payment to any of the account ID's. You should se
 Remember to set  `Mail.devMode` = 0 and `mode` = TEST. In order to carry out transactions and not to send emails to invalid addresses.
 
 
-#To Do
-- Maybe add queues
-- Update userObj at intervals.
-- Match account ID's more efficiently
+#For custom implementation, just send a message.
 
 #Comments and Contributions
 Kindly use the issue tracker
